@@ -1,0 +1,81 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Coverage directory used by tools like istanbul
+coverage/
+coverage.json
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Debug logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Local Netlify folder
+.netlify
+
+# Hardhat deployment files
+deployments/
+
+# Gas reporter results
+gas-report.txt
+
+# Solidity coverage
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# Contract build info
+build/
+dist/
+
+# Contract size info
+.contract-sizer/
+
+# Tenderly
+.tenderly/
+
+# Optimizer output
+optimizer-analysis.json
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test blockchain data
+.testchain/
+
+# Slither output
+slither-results.json
+
+# Mythril output
+mythril-results.json
+
+# Echidna output
+crytic-export/
+
+# Foundry
+out/
+forge-cache/ 
+node_modules

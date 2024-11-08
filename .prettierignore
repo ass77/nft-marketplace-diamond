@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+
+# Hardhat
+cache/
+artifacts/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# Environment files
+.env
+.env.*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Contract deployment files
+deployments/
+
+# Test outputs
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# Gas reporter outputs
+gas-report.txt
+
+# Contract analysis
+.contract-sizer/
+optimizer-analysis.json
+slither-results.json
+mythril-results.json
+crytic-export/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Foundry
+forge-cache/
+
+# Debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log* 
